@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="FAQ - Bootstrap-5" />
+    <title>FAQ - Bootstrap-5</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Bootstrap CSS CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+        body{
+            margin: 100px;
+            box-sizing: border-box  
+        }
+        .faq{
+            font-size: xx-large;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .card i{
+            color: red;
+        }
+        .faq-container{
+           background-color: white;
+            position: relative;
+            padding: 100px;
+            width: 800px;
+        }
+      img{
+        width: 150px;
+        position: absolute;
+bottom: 0;
+left: 0;
+
+      }
+      .box{
+        background-color: rgb(165, 165, 238);
+        padding: 100px;
+        width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+   <div class="faq-container rounded-3 " >
+    <img src="/learning-vector-image.avif" alt="">
+    <div class="container" id="accordian" >
+      <div class="faq text-center"><strong>FAQ</strong></div>
+      <!--Question-->
+      <!--Q1-->
+      <div class="card border-0 p-0" >
+        <div class="card-header text-end bg-transparent ">
+          <a href="#" data-toggle="collapse" class="card-link"
+            >How many team members can i invite?</a
+          >
+          <i class="fa-solid fa-chevron-down"></i>
+        </div> 
+    <!--Q2-->
+    <div class="card border-0 m-1" >
+        <div class="card-header text-end bg-transparent">
+          <a href="#" data-toggle="collapse" class="card-link"
+            >What is the maximum file upload size?</a
+          >
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+         <!--Q3-->
+    <div class="card border-0 m-1">
+        <div class="card-header text-end bg-transparent">
+          <a href="#" data-toggle="collapse" class="card-link"
+            >How do i reset my password?</a
+          >
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+         <!--Q4-->
+    <div class="card border-0 m-1">
+        <div class="card-header text-end bg-transparent">
+          <a href="#" data-toggle="collapse" class="card-link"
+            >Can i cancel my subscription?</a
+          >
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+         <!--Q5-->
+    <div class="card border-0 m-1">
+        <div class="card-header text-end bg-transparent">
+          <a href="#" data-toggle="collapse" class="card-link"
+            >Do you provide additional support?</a
+          >
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </div></div></div></div>
+
+    <!--Bootstrap JS CDN-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
